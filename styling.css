@@ -1,9 +1,14 @@
 #name{
     background: purple;
     color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #nickname{
-    background: blue;
+    background: rgb(150, 150, 216);
     color: white;
+    text-align: center;
 }
