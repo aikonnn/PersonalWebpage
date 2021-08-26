@@ -2,7 +2,7 @@
     background-color: #793a75;
     background-image: radial-gradient(rgb(150, 74, 158),rgb(68, 12, 94));
     color: white;
-    height: 680px;
+    height: 1000px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -2px;
@@ -14,3 +14,15 @@
     background-size: cover;
 }
 
+html, body{
+    display: block;
+    margin: 0px;
+}
+
+ul{
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: left;
+    letter-spacing: normal;
+
+}
