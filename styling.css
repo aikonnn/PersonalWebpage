@@ -1,27 +1,104 @@
-#name{
-    background-color: #793a75;
-    background-image: radial-gradient(rgb(150, 74, 158),rgb(68, 12, 94));
-    color: white;
-    height: 1000px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: -2px;
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('http://fonts.cdnfonts.com/css/yaldevi-colombo');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
 }
 
-#logos{
-    background-color:rgb(68, 12, 94);
+section {
+    height: 100vh;
+    display: flex;
+    
+    
+    color: white;
+    scroll-snap-align: start;
+}
+
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+
+.one{
+    background: rgb(255, 255, 255);
+    color: black;
+    background-image: url(Image/background.png);
     background-size: cover;
 }
+    .be{
+        position: relative;
+        width: 95%;
+        height: 90%;
+        right: 5%;
+        top: 5%;
+        
 
-html, body{
-    display: block;
-    margin: 0px;
+        font-family: Vogue;
+        font-style: normal;
+        font-weight: normal;
+        text-align: right;
+        font-size: 25vmin;
+        line-height: 260px;
+        color: #000000;
+        
+        text-rendering: geometricPrecision;
+
+    }
+    .aikon{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right:0;
+        top: 28%;
+
+
+        font-family: Staatliches;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40vmin;
+        line-height: 500px;
+        text-align: right;
+        text-decoration-line: underline;
+
+        color: #000000;
+        
+        text-rendering:optimizeLegibility;
+        
+    }
+    .an{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        top: 15%;
+
+        
+
+        font-family: 'Yaldevi Colombo Light', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        text-align: right;
+        font-size: 10vmax;
+        
+        text-rendering: geometricPrecision;
+    }
+
+    
+.two{
+    background: wheat;
 }
 
-ul{
-    margin-left: 30vw;
-    text-align: left;
-    letter-spacing: normal;
+.three{
+    background: salmon;
+}
 
+.four{
+    background:seagreen;
 }
